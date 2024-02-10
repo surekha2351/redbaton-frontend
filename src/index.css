@@ -1,0 +1,56 @@
+ol {
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.newsItem {
+  margin: 2rem;
+  padding: 1rem;
+  border: solid;
+}
+
+span {
+  margin: 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  margin: 1rem;
+  border: 1px solid purple;
+}
+
+.pagination button.currentPageButton {
+  transform: scale(1.1);
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.titleAndUrl,
+.authorAndDatePosted,
+.upvotesAndComments {
+  display: flex;
+}
+
+.operations span {
+  margin: 3px;
+  cursor: pointer;
+}
+@media screen and (max-width:420px) {
+  .logobrand{
+    font-size: 12px;
+  }
+  .userin{
+    font-size: 12px;
+    margin: 2px;
+  }
+}
+.userin{
+  margin: 4px;
+}
